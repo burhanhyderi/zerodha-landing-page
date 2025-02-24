@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 400;
+    background-color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #387ed1;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* nav styling */
+  nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0px 80px;
+    box-shadow: 2px 1px 2px #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #ffffff;
+  }
+  
+  nav .logo img {
+    max-height: 17px;
+    max-width: 100%;
+    cursor: pointer;
+  }
+  
+  nav .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  nav .nav-links li a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 15px;
+  }
+  
+  nav .nav-links li a:hover {
+    color: #387ed1;
+  }
+  
+  nav .nav-links li i {
+    cursor: pointer;
+  }
+  
+  /* hero styling */
+  .hero {
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 80px;
+  }
+  
+  /* landing-page styling */
+  .landing-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .landing-page img {
+    width: 60%;
+    margin-bottom: 35px;
+  }
+  
+  .landing-page h3,
+  .account h3 {
+    font-size: 44px;
+    line-height: 55px;
+    color: #424242;
+    font-weight: 500;
+  }
+  
+  .landing-page p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #424242;
+  }
+  
+  .landing-page a,
+  .account a {
+    padding: 5px 30px;
+    background-color: #387ed1;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .landing-page a:hover,
+  .account a:hover {
+    background-color: black;
+  }
+  
+  
